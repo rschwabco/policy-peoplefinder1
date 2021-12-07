@@ -11,7 +11,3 @@ default enabled = true
 allowed {
 	user_props.department == "Operations"
 }
-
-allowed {
-	input.user.id == input.resource.id
-}
