@@ -1,4 +1,4 @@
-package peoplefinder.POST.api.users.__id
+package peoplefinderrbac.POST.api.users.__id
 
 import input.policy.path
 import input.user.attributes.roles as user_roles

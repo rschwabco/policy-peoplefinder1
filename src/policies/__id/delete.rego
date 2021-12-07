@@ -1,4 +1,4 @@
-package peoplefinder.DELETE.api.users.__id
+package peoplefinderrbac.DELETE.api.users.__id
 
 import input.user.attributes.properties as user_props
 

@@ -1,4 +1,4 @@
-package peoplefinder.PUT.api.users.__id
+package peoplefinderrbac.PUT.api.users.__id
 
 import input.user.attributes.properties as user_props
 
