@@ -1,7 +1,25 @@
 package peoplefinder.GET.api.users
 
-default allowed = true
+import input.policy.path
+import input.user.attributes.roles as user_roles
 
-default visible = true
+default allowed = false
 
-default enabled = true
+default visible = false
+
+default enabled = false
+
+allowed {
+	some index
+	data.roles[user_roles[index]].perms[path].allowed
+}
+
+visible {
+	some index
+	data.roles[user_roles[index]].perms[path].visible
+}
+
+enabled {
+	some index
+	data.roles[user_roles[index]].perms[path].enabled
+}
